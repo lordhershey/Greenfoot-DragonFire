@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TreasureWorld()
+comment1.params=level
+comment1.target=TreasureWorld(int)
+comment2.params=
+comment2.target=void\ placeDragon()
+comment3.params=
+comment3.target=void\ placeTreasures()
+comment4.params=
+comment4.target=void\ createBackground()
+comment5.params=
+comment5.target=void\ prepare()
+comment5.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\r\n\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment6.params=
+comment6.target=void\ RandomBackground()
+comment7.params=
+comment7.target=void\ act()
+numComments=8

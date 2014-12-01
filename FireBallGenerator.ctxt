@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FireBallGenerator()
+comment1.params=level
+comment1.target=FireBallGenerator(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=int\ GetRandomDelay()
+numComments=4

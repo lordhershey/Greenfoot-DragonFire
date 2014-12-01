@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PlayerActor()
+comment1.params=
+comment1.target=void\ setPlayerBackToStart()
+comment2.params=
+comment2.target=boolean\ alive()
+comment3.params=
+comment3.target=void\ fryGuy()
+comment4.params=
+comment4.target=boolean\ isOnFire()
+comment5.params=
+comment5.target=void\ comicFireLaunch()
+comment6.params=
+comment6.target=boolean\ isNAN()
+comment7.params=
+comment7.target=void\ act()
+comment8.params=
+comment8.target=void\ processOnFireKeys()
+comment9.params=
+comment9.target=void\ processArrowKeys()
+numComments=10
