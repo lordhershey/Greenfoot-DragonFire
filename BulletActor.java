@@ -11,7 +11,7 @@ public class BulletActor extends Actor
 {
 
     public Actor owner = null;
-    public int speed = 3;
+    public int speed = 5;
 
     boolean canScore = true;
 

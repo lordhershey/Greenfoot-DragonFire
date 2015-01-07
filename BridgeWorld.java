@@ -176,9 +176,15 @@ public class BridgeWorld extends World
 
         FireBallGenerator fireballgenerator = new FireBallGenerator();
         addObject(fireballgenerator, 34, 337);
+        /*Modify Bottom Generator*/
+        fireballgenerator.delayBase = (int)((double)fireballgenerator.delayBase * 1.4);
+        fireballgenerator.bulletSpeedModifier = -1;
+        
         FireBallGenerator fireballgenerator2 = new FireBallGenerator();
         addObject(fireballgenerator2, 34, 308);
-
+        /*Modify the top fire ball generator*/
+        fireballgenerator2.bulletSpeedModifier = 1;
+        
         BridgeExitActor bridgeexitactor = new BridgeExitActor();
         addObject(bridgeexitactor, 10, 317);
         shrubs shrubs = new shrubs(); 

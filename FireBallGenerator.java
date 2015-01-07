@@ -15,7 +15,11 @@ public class FireBallGenerator extends Actor
     int delay = 0;
     boolean needInit = true;
     int level = 0;
-
+    
+    
+    public int delayBase = 300;
+    public int bulletSpeedModifier = 0;
+    
     //static boolean suppressFire = false;
 
     static
@@ -32,7 +36,7 @@ public class FireBallGenerator extends Actor
     public FireBallGenerator()
     {
         needInit = true;
-        delay = GetRandomDelay() + 300;
+        delay = GetRandomDelay() + delayBase;
         startTime = System.currentTimeMillis();
         //always clear this flag when adding object
         //suppressFire = false;
@@ -159,6 +163,10 @@ public class FireBallGenerator extends Actor
             getWorld().addObject(b,getX(),getY());
             startTime = System.currentTimeMillis();
             delay=GetRandomDelay();
+            if(bulletSpeedModifier != 0)
+            {
+                b.speed += bulletSpeedModifier;
+            }
         }
     }
 
